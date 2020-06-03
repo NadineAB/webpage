@@ -1,331 +1,1 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML><HEAD>
-<TITLE>Nadine-Position Based Skinning of Skeleton-driven Deformable Characters</TITLE>
-<META content="text/html; charset=windows-1256" http-equiv=Content-Type>
-<LINK 
-rel=stylesheet 
-href="css/main1.css">
-<META name=GENERATOR content="MSHTML 8.00.6001.18904">
-<style type="text/css">
-<!--
-.style6 {font-size: 1.3em}
-.style15 {color: #FFFFFF}
-.style18 {color: #FF0000}
-.style23 {
-	font-size: 16px;
-	color: #FFFFFF;
-	font-weight: bold;
-}
--->
-</style>
-<link href="../../Downloads/Accessible_Design.css" rel="stylesheet" type="text/css">
-<link href="../../Downloads/Level3_1.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-<!--
-.style24 {font-size: 14px}
-.style27 {font-size: 14px}
-.style33 {
-	font-size: 1.2em;
-	font-family: Tahoma, Geneva, sans-serif;
-}
-.style35 {
-}
-.style38 {
-	color: #0000CC;
-	font-size: 16px;
-}
-.style39 {
-	color: #0000FF;
-	font-style: italic;
-}
-.style44 {
-	color: #000099;
-	font-size: 14px;
-}
-.style45 {
-	color: #993333;
-	font-size: 14px;
-}
-.style48 {
-	color: #990000;
-	font-size: 16px;
-}
-.style52 {color: #993333; font-weight: bold; }
-.style59 {color: #000033}
-.style62 {font-size: 14px; font-family: Arial, Helvetica, sans-serif; }
-.style63 {font-size: 36px}
-.style64 {font-size: 32px}
-.style66 {
-	color: #0000CC;
-	font-size: 14px;
-}
-.style67 {color: #000099}
-.style68 {
-	color: #990000;
-	font-size: 14px;
-}
-.style69 {color: #993333}
-.style70 {color: #0000CC}
-.style71 {color: #990000}
-.style72 {font-size: 14px}
-.style73 {font-size: 16px; font-family: Arial, Helvetica, sans-serif; }
-.style75 {
-	font-size: 16px;
-	font-weight: bold;
-}
-.style76 {font-size: 16px}
-.style78 {color: #000033; font-style: italic; }
-.style82 {
-	font-size: 18px;
-	font-weight: bold;
-}
-.style83 {font-size: 18px}
-.style84 {color: #666666}
-.style86 {color: #333333}
-.style87 {font-size: 16px; font-weight: bold; color: #333333; }
-.style88 {font-size: 36px; color: #990000; }
-.style89 {font-family: Georgia, "Times New Roman", Times, serif; color: #990000; }
-.style90 {color: #990000; font-size: 24px; }
-.style15 table tbody tr .style27 table tbody tr td p .style24 strong {
-	font-family: Tahoma, Geneva, sans-serif;
-}
-.style15 table tbody tr .style27 div .ListHeaderColor.style35 .LabelColor.ListFooterColor .style15 .style59 .style33 {
-	font-size: 9px;
-}
-.style15 table tbody tr .style27 div .ListHeaderColor.style35 .LabelColor.ListFooterColor .style15 .style59 .style33 {
-	font-size: 12px;
-}
-.style15 table tbody tr .style27 div .ListHeaderColor.style35 .LabelColor.ListFooterColor .style15 .style59 .style33 {
-	font-size: 14px;
-}
--->
-<style type="text/css">
-a:link {
-	color: #000;
-}
-a:visited {
-	color: #000;
-}
-</style>
-<link rel="shortcut icon" href="nadineicon.jpg">
-
-<style type="text/css">
-a:link {
-	color: #000;
-}
-</style>
-</HEAD>
-<BODY onLoad="MM_CheckFlashVersion('7,0,0,0','Content on this page requires a newer version of Macromedia Flash Player. Do you want to download it now?');">
-<DIV align=center>
-<TABLE border=0 cellSpacing=0 cellPadding=0 width="78%">
-  <TBODY>
-  <TR>
-    <TD 
-    width=2 height=2 
-    background=images/logo/joanimate.png class="style24"></TD>
-    <TD width="867" height=2 
-    background=images/logo/joanimate.png class="style24"></TD>
-    <TD 
-    width=5 height=2 
-    background=images/logo/joanimate.png class="style24"></TD></TR>
-  <TR>
-    <TD 
-    width=2 
-    background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/outerLL.png class="style24"></TD>
-    <TD 
-    background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/outerBG.png 
-    align=left>
-      <DIV align=center class="style15"><span class="style24"><BR>
-          <!-- Title -->
-      </span>
-        <TABLE width="810" height="438" border=0 cellPadding=0 cellSpacing=0>
-        <TBODY>
-        <TR>
-          <TD 
-          width=1 height=9 
-          background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTL.png class="style24"></TD>
-          <TD width="809" height=9 
-          background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTT.png class="style24"></TD>
-          <TD 
-          width=1 height=9 
-          background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTR.png class="style24"></TD>
-        </TR>
-        <TR>
-          <TD 
-          width=1 
-          background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerLL.png class="style24"></TD>
-          <TD 
-          align=left 
-          background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBG.png class="style27">
-            <DIV style="PADDING-BOTTOM: 9px" 
-            align=center>
-              <h1 class="ListHeaderColor style35"><span class="LabelColor ListFooterColor"><span class="style15"><span class="style59"><span class="style33"></span></span></span></span><span class="LabelColor ListFooterColor"><span class="style15"><span class="style59"><span class="style52">Position Based Skinning of Skeleton-driven Deformable Characters</span></span></span></span></h1>
-            </DIV>
-            <div align="left" class="LabelColor">
-              <table width="677" height="773" align="center" style="FLOAT: center">
-                <tr bordercolor="#F7F3F7">
-                  <td width="359" height="55" align="left" valign="middle" style="PADDING-RIGHT: 10px"><table width="420" height="53">
-                    <tbody>
-                      <tr>
-                        <td width="413" align="center" class="ListHeaderColor style45" style="TEXT-ALIGN: center"><span class="style23 style84 style83"><a href="http://www.dis.uniroma1.it/~aburumman/"> <strong>Nadine Abu Rumman</strong></a></td>
-                        </tr>
-                    </tbody>
-                  </table></td>
-                  <td width="306" align="left" valign="middle"><table width="405" height="53">
-                    <tbody>
-                      <tr>
-                        <td align="center" valign="middle" class="ListHeaderColor style45" style="TEXT-ALIGN: center"><p class="style23 style84 style83"><a href="http://www.dis.uniroma1.it/~frat/">Marco Fratarcangeli</a></p></td>
-                        </tr>
-                    </tbody>
-                  </table>
-                          </td>
-                </tr>
-                <tr bordercolor="#F7F3F7">
-                
-                  <td height="710" colspan="2" align="center" valign="top" style="PADDING-RIGHT: 10px"><span style="PADDING-RIGHT: 10px; VERTICAL-ALIGN: top; PADDING-TOP: 0.2em">
-               <!-- This version of the embed code is no longer supported. Learn more: https://vimeo.com/s/tnm --> <img src="SCCG.jpg" alt="Nadine" width="798" height="387"> 
-                  </span>                    <p>Rumman NA and Fratarcangeli M, Position Based Skinning of Skeleton-driven Deformable Characters,In Proceedings of the 30th Spring Conference on Computer Graphics. , pp. 83-90. ACM. 2014</p>
-                  <p><span class="style52"> Best paper award  and Best presentation award</span>                  </p>
-                  <table width="654" height="194">
-                    <tbody>
-                              <tr>
-                                <td width="202" height="188" class="ListHeaderColor style45" style="TEXT-ALIGN: left"><a href="Doc/Position Based Skinning of Skeleton-driven Deformable Characters.pdf"><img src="imageSkin.jpg" alt="Nadine" width="122" height="158"></a></td>
-                                <td width="233" class="ListHeaderColor style45" style="TEXT-ALIGN: left"><a href="Doc/PBS.bib"><img src="bibtex.jpg" alt="Nadine" width="163" height="152" border="0"></a></td>
-                                <td width="203" class="ListHeaderColor style45" style="TEXT-ALIGN: left"><a href="Doc/SCCG Talk sildes/SCCG Talk Presentation.pdf"><img src="2008.png" alt="Nadine" width="163" height="170"></a></td>
-                                <td width="203" class="ListHeaderColor style45" style="TEXT-ALIGN: left"><a href="mailto:aburumman@dis.uniroma1.it"><img src="codeIcon.png" alt="Nadine" width="171" height="171"></a></td>
-                                </tr>
-                              </tbody>
-                        </table></td>
-                  </tr>
-                <tbody>
-                </tbody>
-        </table>
-            </div>            </TD>
-          <TD 
-          width=1 
-          background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerRR.png class="style27"></TD>
-        </TR>
-        <TR>
-          <TD 
-          width=1 height=9 
-          background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBL.png class="style27"></TD>
-          <TD height=9 
-          background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBB.png class="style27"></TD>
-          <TD 
-          width=1 height=9 
-          background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBR.png class="style27"></TD>
-        </TR></TBODY></TABLE>
-        <TABLE border=0 cellSpacing=5 cellPadding=0 width="98%">
-        <TBODY>
-        <TR>
-          <TD align=left class="style27">
-            <H2 class="style23 style84 style83">Abstract</H2></TD>
-        </TR>
-        <TR>
-          <TD height="116" align=middle class="style27">
-            <TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
-              <TBODY>
-              <TR>
-                <TD height=9 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTL.png 
-                width=9></TD>
-                <TD height=9 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTT.png></TD>
-                <TD height=9 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTR.png 
-                width=9></TD></TR>
-              <TR>
-                <TD 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerLL.png 
-                width=9></TD>
-                <TD 
-                align=left valign="middle" 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBG.png><p align="justify"><span class="style24"><strong>This paper presents a real-time skinning technique for character animation based on a two-layered deformation model. For each frame, the skin of a generic character is first deformed by using a classic linear blend skinning approach, then the vertex positions are adjusted according to a Position Based Dynamics schema. We define geometric constraints which mimic the flesh behavior and produce interesting effects like volume conservation and secondary animations, in particular passive jiggling behavior, without relying on a predefined training set of poses. Once the whole model is defined, the character animation is synthesized in real-time without suffering of the inherent artefacts of classic interactive skinning techniques, such as the "candy-wrapper" effect or undesired skin bulging.
-
-</strong></span></p>
-                  <p align="justify"><span class="style84"><br>
-                  </span></p></TD>
-                  
-                  
-                <TD 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerRR.png 
-                width=9></TD></TR>
-         
-              <TR>
-                <TD height=9 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBL.png 
-                width=9></TD>
-                <TD height=9 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBB.png></TD>
-                <TD height=9 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBR.png 
-                width=9></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
-                
-                <TABLE border=0 cellSpacing=5 cellPadding=0 width="98%">
-        <TBODY>
-        <TR>
-          <TD align=left class="style27">
-            <H2 class="style23 style84 style83">Paper Video</H2></TD>
-        </TR>
-        <TR>
-          <TD height="116" align=middle class="style27">
-            <TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
-              <TBODY>
-              <TR>
-                <TD height=9 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTL.png 
-                width=9></TD>
-                <TD height=9 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTT.png></TD>
-                <TD height=9 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTR.png 
-                width=9></TD></TR>
-              <TR>
-                <TD 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerLL.png 
-                width=9></TD>
-                <TD 
-                align=left valign="middle" 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBG.png><p align="justify"><span class="style24"><strong>
-                
-                <div align="center">
-                <object width="960" height="524" align="middle"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=95511286&amp;force_embed=1&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=95511286&amp;force_embed=1&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" width="960" height="524" align="middle" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always"></embed></object>
-                </div>
-                </p>
-                  <p align="justify"><span class="style52"><strong>Acknowledgments: </strong></span></p>
-                  <p align="justify"><span class="style24"><strong>We are grateful to Alaa Assa'di for his narration of the video. </strong></span></p>
-                  <p align="justify"><span class="style84"><br>
-                  </span></p></TD>
-                  
-                  
-                <TD 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerRR.png 
-                width=9></TD></TR>
-         
-              <TR>
-                <TD height=9 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBL.png 
-                width=9></TD>
-                <TD height=9 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBB.png></TD>
-                <TD height=9 
-                background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBR.png 
-                width=9></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
-      </DIV>
-      <!-- center --></TD>
-    <TD 
-    background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/outerRR.png 
-    width=5></TD></TR>
-  <TR>
-    <TD height=9 
-    background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/outerBL.png 
-    width=2></TD>
-    <TD height=9 
-    background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/outerBB.png></TD>
-<TD height=9 
-    background=http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/outerBR.png 
-    width=5></TD></TR></TBODY></TABLE></DIV>
-<P>Last updated: Nov 30, 2014
-</P></BODY>
-</HTML>
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html>  <head>    <meta http-equiv="content-type" content="text/html; charset=windows-1256">    <title>Nadine-Position Based Skinning of Skeleton-driven Deformable      Characters</title>    <link rel="stylesheet" href="css/main1.css">    <meta name="GENERATOR" content="MSHTML 8.00.6001.18904">    <style type="text/css"><!--.style6 {font-size: 1.3em}.style15 {color: #FFFFFF}.style18 {color: #FF0000}.style23 {	font-size: 16px;	color: #FFFFFF;	font-weight: bold;}--></style>    <link href="../../Downloads/Accessible_Design.css" rel="stylesheet" type="text/css">    <link href="../../Downloads/Level3_1.css" rel="stylesheet" type="text/css">    <style type="text/css"><!--.style24 {font-size: 14px}.style27 {font-size: 14px}.style33 {	font-size: 1.2em;	font-family: Tahoma, Geneva, sans-serif;}.style35 {}.style38 {	color: #0000CC;	font-size: 16px;}.style39 {	color: #0000FF;	font-style: italic;}.style44 {	color: #000099;	font-size: 14px;}.style45 {	color: #993333;	font-size: 14px;}.style48 {	color: #990000;	font-size: 16px;}.style52 {color: #993333; font-weight: bold; }.style59 {color: #000033}.style62 {font-size: 14px; font-family: Arial, Helvetica, sans-serif; }.style63 {font-size: 36px}.style64 {font-size: 32px}.style66 {	color: #0000CC;	font-size: 14px;}.style67 {color: #000099}.style68 {	color: #990000;	font-size: 14px;}.style69 {color: #993333}.style70 {color: #0000CC}.style71 {color: #990000}.style72 {font-size: 14px}.style73 {font-size: 16px; font-family: Arial, Helvetica, sans-serif; }.style75 {	font-size: 16px;	font-weight: bold;}.style76 {font-size: 16px}.style78 {color: #000033; font-style: italic; }.style82 {	font-size: 18px;	font-weight: bold;}.style83 {font-size: 18px}.style84 {color: #666666}.style86 {color: #333333}.style87 {font-size: 16px; font-weight: bold; color: #333333; }.style88 {font-size: 36px; color: #990000; }.style89 {font-family: Georgia, "Times New Roman", Times, serif; color: #990000; }.style90 {color: #990000; font-size: 24px; }.style15 table tbody tr .style27 table tbody tr td p .style24 strong {	font-family: Tahoma, Geneva, sans-serif;}.style15 table tbody tr .style27 div .ListHeaderColor.style35 .LabelColor.ListFooterColor .style15 .style59 .style33 {	font-size: 9px;}.style15 table tbody tr .style27 div .ListHeaderColor.style35 .LabelColor.ListFooterColor .style15 .style59 .style33 {	font-size: 12px;}.style15 table tbody tr .style27 div .ListHeaderColor.style35 .LabelColor.ListFooterColor .style15 .style59 .style33 {	font-size: 14px;}--><style type="text/css">a:link {	color: #000;}a:visited {	color: #000;}</style>    <link rel="shortcut icon" href="nadineicon.jpg">    <style type="text/css">a:link {	color: #000;}</style>  </head>  <body onload="MM_CheckFlashVersion('7,0,0,0','Content on this page requires a newer version of Macromedia Flash Player. Do you want to download it now?');">    <div align="center">      <table cellspacing="0" cellpadding="0" border="0" width="78%">        <tbody>          <tr>            <td class="style24" background="images/logo/joanimate.png" height="2"              width="2"><br>            </td>            <td class="style24" background="images/logo/joanimate.png" height="2"              width="867"><br>            </td>            <td class="style24" background="images/logo/joanimate.png" height="2"              width="5"><br>            </td>          </tr>          <tr>            <td class="style24" background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/outerLL.png"              width="2"><br>            </td>            <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/outerBG.png"              align="left">              <div class="style15" align="center"><span class="style24"><br>                  <!-- Title --> </span>                <table cellspacing="0" cellpadding="0" border="0" height="438" width="810">                  <tbody>                    <tr>                      <td class="style24" background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTL.png"                        height="9"                        width="1"><br>                      </td>                      <td class="style24" background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTT.png"                        height="9"                        width="809"><br>                      </td>                      <td class="style24" background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTR.png"                        height="9"                        width="1"><br>                      </td>                    </tr>                    <tr>                      <td class="style24" background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerLL.png"                        width="1"><br>                      </td>                      <td class="style27" background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBG.png"                        align="left">                        <div style="PADDING-BOTTOM: 9px" align="center">                          <h1 class="ListHeaderColor style35"><span class="LabelColor ListFooterColor"><span                                class="style15"><span                                  class="style59"><span                                    class="style33"></span></span></span></span><span                              class="LabelColor ListFooterColor"><span                                class="style15"><span                                  class="style59"><span                                    class="style52">Position                                    Based Skinning of Skeleton-driven Deformable                                    Characters</span></span></span></span></h1>                        </div>                        <div class="LabelColor" align="left">                          <table style="FLOAT: center" align="center" height="773"                            width="677">                            <tbody>                              <tr bordercolor="#F7F3F7">                                <td style="PADDING-RIGHT: 10px" align="left" height="55"                                  width="359"                                  valign="middle">                                  <table height="53" width="420">                                    <tbody>                                      <tr>                                        <td class="ListHeaderColor style45" style="TEXT-ALIGN: center"                                          align="center"                                          width="413"><span                                            class="style23 style84 style83"><a                                              href="http://www.dis.uniroma1.it/%7Eaburumman/">                                              <strong>Nadine Abu Rumman</strong></a></span></td>                                      </tr>                                    </tbody>                                  </table>                                </td>                                <td align="left" width="306" valign="middle">                                  <table height="53" width="405">                                    <tbody>                                      <tr>                                        <td class="ListHeaderColor style45" style="TEXT-ALIGN: center"                                          align="center"                                          valign="middle">                                          <p class="style23 style84 style83"><a                                              href="http://www.dis.uniroma1.it/%7Efrat/">Marco                                              Fratarcangeli</a></p>                                        </td>                                      </tr>                                    </tbody>                                  </table>                                </td>                              </tr>                              <tr bordercolor="#F7F3F7">                                <td colspan="2" style="PADDING-RIGHT: 10px" align="center"                                  height="710"                                  valign="top"><span                                    style="PADDING-RIGHT: 10px; VERTICAL-ALIGN: top; PADDING-TOP: 0.2em">                                    <!-- This version of the embed code is no longer supported. Learn more: https://vimeo.com/s/tnm -->                                    <img src="SCCG.jpg" alt="Nadine" height="387"                                      width="798">                                  </span>                                  <p>Rumman NA and Fratarcangeli M, Position                                    Based Skinning of Skeleton-driven Deformable                                    Characters,In Proceedings of the 30th Spring                                    Conference on Computer Graphics. , pp.                                    83-90. ACM. 2014</p>                                  <p><span class="style52"> Best paper award and                                      Best presentation award</span> </p>                                  <table height="194" width="654">                                    <tbody>                                      <tr>                                        <td class="ListHeaderColor style45" style="TEXT-ALIGN: left"                                          height="188"                                          width="202"><a                                            href="Doc/Position%20Based%20Skinning%20of%20Skeleton-driven%20Deformable%20Characters.pdf"><img                                              src="imageSkin.jpg"                                              alt="Nadine"                                              height="158"                                              width="122"></a></td>                                        <td class="ListHeaderColor style45" style="TEXT-ALIGN: left"                                          width="233"><a                                            href="Doc/PBS.bib"><img                                              src="bibtex.jpg"                                              alt="Nadine"                                              border="0"                                              height="152"                                              width="163"></a></td>                                        <td class="ListHeaderColor style45" style="TEXT-ALIGN: left"                                          width="203"><a                                            href="Doc/SCCG%20Talk%20sildes/SCCG%20Talk%20Presentation.pdf"><img                                              src="2008.png"                                              alt="Nadine"                                              height="170"                                              width="163"></a></td>                                        <td class="ListHeaderColor style45" style="TEXT-ALIGN: left"                                          width="203"><a                                            href="mailto:aburumman@dis.uniroma1.it"><img                                              src="codeIcon.png"                                              alt="Nadine"                                              height="171"                                              width="171"></a></td>                                      </tr>                                    </tbody>                                  </table>                                </td>                              </tr>                            </tbody>                            <tbody>                            </tbody>                          </table>                        </div>                      </td>                      <td class="style27" background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerRR.png"                        width="1"><br>                      </td>                    </tr>                    <tr>                      <td class="style27" background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBL.png"                        height="9"                        width="1"><br>                      </td>                      <td class="style27" background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBB.png"                        height="9"><br>                      </td>                      <td class="style27" background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBR.png"                        height="9"                        width="1"><br>                      </td>                    </tr>                  </tbody>                </table>                <table cellspacing="5" cellpadding="0" border="0" width="98%">                  <tbody>                    <tr>                      <td class="style27" align="left">                        <h2 class="style23 style84 style83">Abstract</h2>                      </td>                    </tr>                    <tr>                      <td class="style27" align="center" height="116">                        <table cellspacing="0" cellpadding="0" border="0" width="100%">                          <tbody>                            <tr>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTL.png"                                height="9"                                width="9"><br>                              </td>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTT.png"                                height="9"><br>                              </td>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTR.png"                                height="9"                                width="9"><br>                              </td>                            </tr>                            <tr>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerLL.png"                                width="9"><br>                              </td>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBG.png"                                align="left"                                valign="middle">                                <div style="text-align: justify;"><b><span class="style24"><strong>This                                        paper presents a real-time skinning                                        technique for character animation based                                        on a two-layered deformation model. For                                        each frame, the skin of a generic                                        character is first deformed by using a                                        classic linear blend skinning approach,                                        then the vertex positions are adjusted                                        according to a Position Based Dynamics                                        schema. We define geometric constraints                                        which mimic the flesh behavior and                                        produce interesting effects like volume                                        conservation and secondary animations,                                        in particular passive jiggling behavior,                                        without relying on a predefined training                                        set of poses. Once the whole model is                                        defined, the character animation is                                        synthesized in real-time without                                        suffering of the inherent artefacts of                                        classic interactive skinning techniques,                                        such as the "candy-wrapper" effect or                                        undesired skin bulging.                                      </strong></span></b></div>                              </td>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerRR.png"                                width="9"><br>                              </td>                            </tr>                            <tr>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBL.png"                                height="9"                                width="9"><br>                              </td>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBB.png"                                height="9"><br>                              </td>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBR.png"                                height="9"                                width="9"><br>                              </td>                            </tr>                          </tbody>                        </table>                      </td>                    </tr>                  </tbody>                </table>                <table cellspacing="5" cellpadding="0" border="0" width="98%">                  <tbody>                    <tr>                      <td class="style27" align="left">                        <h2 class="style23 style84 style83">Paper Video</h2>                      </td>                    </tr>                    <tr>                      <td class="style27" align="center" height="116">                        <table cellspacing="0" cellpadding="0" border="0" width="100%">                          <tbody>                            <tr>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTL.png"                                height="9"                                width="9"><br>                              </td>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTT.png"                                height="9"><br>                              </td>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerTR.png"                                height="9"                                width="9"><br>                              </td>                            </tr>                            <tr>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerLL.png"                                width="9"><br>                              </td>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBG.png"                                align="left"                                valign="middle">                                <p align="justify"><span class="style24"><strong>                                    </strong></span></p>                                <div align="center"><strong> <object align="middle"                                      height="524"                                      width="960"><param                                        name="allowfullscreen"                                        value="true"><param                                        name="allowscriptaccess"                                        value="always"><param                                        name="movie"                                        value="http://vimeo.com/moogaloop.swf?clip_id=95511286&amp;force_embed=1&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0"><embed                                        src="http://vimeo.com/moogaloop.swf?clip_id=95511286&amp;force_embed=1&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0"                                        type="application/x-shockwave-flash"                                        allowfullscreen="true"                                        allowscriptaccess="always"                                        align="middle"                                        height="524"                                        width="960"></object>                                  </strong></div>                                <strong>                                  <p></p>                                  <p align="justify"><span class="style52"><strong>Acknowledgments:                                        </strong></span></p>                                  <p align="justify"><span class="style24"><strong>We                                        are grateful to Alaa Assa'di for his                                        narration of the video. </strong></span></p>                                  <p align="justify"><span class="style84"><br>                                    </span></p>                                </strong></td>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerRR.png"                                width="9"><br>                              </td>                            </tr>                            <tr>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBL.png"                                height="9"                                width="9"><br>                              </td>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBB.png"                                height="9"><br>                              </td>                              <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/innerBR.png"                                height="9"                                width="9"><br>                              </td>                            </tr>                          </tbody>                        </table>                      </td>                    </tr>                  </tbody>                </table>              </div>              <!-- center --></td>            <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/outerRR.png"              width="5"><br>            </td>          </tr>          <tr>            <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/outerBL.png"              height="9"              width="2"><br>            </td>            <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/outerBB.png"              height="9"><br>            </td>            <td background="http://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/outerBR.png"              height="9"              width="5"><br>            </td>          </tr>        </tbody>      </table>    </div>    <p>Last updated: Nov 30, 2014    </p>  </body></html>
