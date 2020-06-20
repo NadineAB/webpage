@@ -4,14 +4,12 @@ body {
 	/*font-family: Helvetica, sans-serif;*/
  font-size: 10pt;
 	background-color: #999;
-	background-image: url(../images/logo/joanimate.png);
 	background-repeat: 0;
 	bgproperties: fixed;
 	-moz-background-size: cover;
 -webkit-background-size: cover;
 background-size: cover;
 background-position: top center !important;
-background-repeat: no-repeat !important;
 background-attachment: fixed;
 }
 
@@ -46,9 +44,8 @@ li {
   margin-top: 0.2em;
   margin-bottom: 0.2em;
 }
-{
-  color: #000000;                            /* link */
-}
+
+ 
 
 
 .ww {
