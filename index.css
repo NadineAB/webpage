@@ -1,0 +1,86 @@
+body {
+	color: #5c5c5c;                        /* bg0 */
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	/*font-family: Helvetica, sans-serif;*/
+ font-size: 10pt;
+	background-color: #999;
+	background-image: url(joanimate.png);
+	background-repeat: 0;
+	bgproperties: fixed;
+	-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+}
+
+h1 {
+ font-color: #232323;                        /* fgBold */
+ font-size: 200%;
+ margin: 0em;
+}
+
+h2 {
+	font-color: #232323;                        /* fgBold */
+	font-size: 125%;
+	margin-bottom: 0em;
+	color: #F84B0F;
+}
+
+h3 {
+ font-color: #232323;                        /* fgBold */
+ font-weight: bold;
+ font-size: 100%;
+ margin: 0em
+}
+
+address {
+ margin-top: 1em;
+ padding-top: 1em;
+ color: black;
+ /*border-top: thin dotted;*/
+}
+
+li {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+{
+  color: #000000;                            /* link */
+}
+
+
+.ww {
+	color: #FAFAFA;
+}
+.style15 table tbody tr .style27 .LabelColor table tr td table tbody tr .ListHeaderColor.style45 .style52 a {
+	font-size: 16px;
+}
+.style15 table tbody tr .style27 .LabelColor table tr td table tbody tr .ListHeaderColor.style45 .style52 a {
+	font-size: 14px;
+}
+.wecr {
+	color: #6E8681;
+}
+.wer {
+	color: #6E8681;
+}
+.wff {
+	color: #6E8681;
+}
+.wrsgf {
+	color: #6E8681;
+}
+.qwef {
+	color: #6E8681;
+}
+.qwed {
+	color: #6E8681;
+}
+.qerr {
+	color: #5D5B5A;
+}
+.style15 table tbody tr .style27 table tbody tr td .style27 .style271 .qerr strong strong {
+	color: #000;
+}
